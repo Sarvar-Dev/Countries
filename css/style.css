@@ -6,7 +6,7 @@
 /* FONTS */
 @font-face {
     font-family: 'Nunito Sans 10pt';
-    src: url('../fonts/NunitoSans10pt-Regular.woff2') format('woff2'),
+    src: url('../fonts/0-Regular.woff2') format('woff2'),
         url('../fonts/NunitoSans10pt-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
@@ -64,6 +64,8 @@ body{
     line-height: 1.5;
     background-color:var(--body-bg);
     color:var(--text-color);
+    transition:background-color 0.3s ease,
+    color 0.3s ease;
 }
 /* DARK-MODE */
 .dark-mode{
